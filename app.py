@@ -12,5 +12,3 @@ if cadastrar:
    with open('Clientes.csv', 'a', encoding='utf8') as arquivo:
       arquivo.write(f'{nome}, {endereco}, {dt_nasc}, {tipo_cliente} \n') 
       st.success('Cadastro concluído com sucesso.')
-
-#st.texte_input cria uma caixa de texto na web
